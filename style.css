@@ -37,7 +37,7 @@ list-style:none;
     display:flex;
     flex-direction: column;
     position: relative;
-    height: 840px;
+    height: 500px;
     background: url('img.jpg') no-repeat;
     height:1300px;
     width:100%;
@@ -46,14 +46,13 @@ list-style:none;
     z-index:-1;
     opacity: 0.9;
     background-color: rgb(201, 100, 141);
-
 }
 .main{
     display: flex;
     flex-direction: column;
     width: 100px;
  margin:90px;
- font-size:30px;
+
 
 }
 .headings{
@@ -65,7 +64,7 @@ list-style:none;
     font-size: 60%;
     color: rgb(57, 10, 28);
   background-color: transparent;
-  border:2px solid white ;
+  border:2px solid rgb(192, 192, 192) ;
   transition: 0.5s ease-in;
 
 }
@@ -78,30 +77,35 @@ list-style:none;
 #abt{
     display:flex;
     flex-direction: column;
-    color: rgb(0, 0, 0);
+    color: rgb(13, 13, 13);
     background-color: rgb(201, 100, 141);
     padding:10%;
-   image : url('img1.jpeg') no-repeat;
+   img : url('./webd\ icon.jpg') no-repeat;
    
 }
 #pic{
     display:flex;
+    padding: 30px;
   
 }
 #pic img{
-    width: 250px;
-    height: 250px;
+    width: 1000px;
+    height: 600px;
+    margin: 20px;
 }
 #intro{
+    font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(80, 9, 44);
     text-align:justify;
+    
+  
 
 }
 #skills{
     display:flex;
     flex-direction: column;
-    height: 700px;
+    height: 500px;
     padding:10%;
     background-color: rgb(139, 64, 95);
     
@@ -141,18 +145,18 @@ list-style:none;
     display:flex;
     flex-direction: column;
     background-color: rgb(221, 134, 170);
-    padding: 30%;
+    padding: 10%;
 }
 
 input[type]{
     color: rgb(12, 2, 20);
     background-color: rgb(207, 75, 143);
-    padding-block: 10px ;
+    padding-block: 20px ;
     
 }
 #msg{
     color: rgb(12, 2, 20);
     background-color:rgb(207, 75, 143) ;
-    padding-block: 10px ;
+    padding: 0px ;
     
 }
